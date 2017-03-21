@@ -1,0 +1,39 @@
+insert into t_product(name, image, price) values('product-01','http://image.eastseven.cn/heads/01.jpg',998);
+insert into t_product(name, image, price) values('product-02','http://image.eastseven.cn/heads/02.jpg',997);
+insert into t_product(name, image, price) values('product-03','http://image.eastseven.cn/heads/03.jpg',996);
+insert into t_product(name, image, price) values('product-04','http://image.eastseven.cn/heads/04.jpg',995);
+insert into t_product(name, image, price) values('product-05','http://image.eastseven.cn/heads/05.jpg',994);
+insert into t_product(name, image, price) values('product-06','http://image.eastseven.cn/heads/06.jpg',993);
+insert into t_product(name, image, price) values('product-07','http://image.eastseven.cn/heads/07.jpg',992);
+insert into t_product(name, image, price) values('product-08','http://image.eastseven.cn/heads/08.jpg',991);
+insert into t_product(name, image, price) values('product-09','http://image.eastseven.cn/heads/09.jpg',990);
+insert into t_product(name, image, price) values('product-10','http://image.eastseven.cn/heads/10.jpg',999);
+
+insert into t_product(name, image, price) values('product-11','http://image.eastseven.cn/heads/11.jpg',99);
+insert into t_product(name, image, price) values('product-12','http://image.eastseven.cn/heads/12.jpg',98);
+insert into t_product(name, image, price) values('product-13','http://image.eastseven.cn/heads/13.jpg',97);
+insert into t_product(name, image, price) values('product-14','http://image.eastseven.cn/heads/14.jpg',96);
+insert into t_product(name, image, price) values('product-15','http://image.eastseven.cn/heads/15.jpg',95);
+insert into t_product(name, image, price) values('product-16','http://image.eastseven.cn/heads/16.jpg',94);
+insert into t_product(name, image, price) values('product-17','http://image.eastseven.cn/heads/17.jpg',93);
+insert into t_product(name, image, price) values('product-18','http://image.eastseven.cn/heads/18.jpg',92);
+insert into t_product(name, image, price) values('product-19','http://image.eastseven.cn/heads/19.jpg',91);
+insert into t_product(name, image, price) values('product-20','http://image.eastseven.cn/heads/20.jpg',90);
+
+insert into t_product(name, image, price) values('product-21','http://image.eastseven.cn/heads/21.jpg',9.99);
+insert into t_product(name, image, price) values('product-22','http://image.eastseven.cn/heads/22.jpg',8.99);
+insert into t_product(name, image, price) values('product-23','http://image.eastseven.cn/heads/23.jpg',7.99);
+insert into t_product(name, image, price) values('product-24','http://image.eastseven.cn/heads/24.jpg',6.99);
+insert into t_product(name, image, price) values('product-25','http://image.eastseven.cn/heads/25.jpg',5.99);
+insert into t_product(name, image, price) values('product-26','http://image.eastseven.cn/heads/26.jpg',4.99);
+insert into t_product(name, image, price) values('product-27','http://image.eastseven.cn/heads/27.jpg',3.99);
+insert into t_product(name, image, price) values('product-28','http://image.eastseven.cn/heads/28.jpg',2.99);
+insert into t_product(name, image, price) values('product-29','http://image.eastseven.cn/heads/29.jpg',1.99);
+
+insert into t_product(name, image, price) values('product-30','http://image.eastseven.cn/heads/30.jpg',10.99);
+insert into t_product(name, image, price) values('product-31','http://image.eastseven.cn/heads/31.jpg',11.99);
+insert into t_product(name, image, price) values('product-32','http://image.eastseven.cn/heads/32.jpg',12.99);
+insert into t_product(name, image, price) values('product-33','http://image.eastseven.cn/heads/33.jpg',13.99);
+insert into t_product(name, image, price) values('product-34','http://image.eastseven.cn/heads/34.jpg',14.99);
+insert into t_product(name, image, price) values('product-35','http://image.eastseven.cn/heads/35.jpg',15.99);
+insert into t_product(name, image, price) values('product-36','http://image.eastseven.cn/heads/36.jpg',16.99);
