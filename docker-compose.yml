@@ -1,0 +1,38 @@
+discovery-eureka:
+  build: ./ms-discovery-eureka
+  ports:
+      - '8081:8080'
+  environment:
+    - 'SPRING_PROFILES_ACTIVE=docker'
+
+api-gateway:
+  build: ./ms-api-gateway
+  ports:
+    - '8080:8080'
+  environment:
+    - 'SPRING_PROFILES_ACTIVE=docker'
+  links:
+    - discovery-eureka:discovery-server
+    - service-customer:service-customer
+    - service-product:service-product
+
+service-customer:
+  build: ./ms-service-customer
+  environment:
+    - 'SPRING_PROFILES_ACTIVE=docker'
+  links:
+    - discovery-eureka:discovery-server
+
+service-product:
+  build: ./ms-service-product
+  environment:
+    - 'SPRING_PROFILES_ACTIVE=docker'
+  links:
+    - discovery-eureka:discovery-server
+
+service-order:
+  build: ./ms-service-order
+  environment:
+    - 'SPRING_PROFILES_ACTIVE=docker'
+  links:
+    - discovery-eureka:discovery-server
