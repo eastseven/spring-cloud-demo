@@ -10,6 +10,10 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * Created by dongqi on 17/3/17.
+ *
+ * @apiDefine Product
+ *
+ * 商品
  */
 @Slf4j
 @RestController
@@ -19,6 +23,20 @@ public class ProductResource {
     @Autowired
     ProductRepository productRepository;
 
+    /**
+     * @api {get} /products 商品列表，带分页
+     * @apiVersion 1.0.0
+     * @apiName getProducts
+     * @apiGroup Product
+     * @apiPermission none
+     *
+     * @apiDescription 获取商品列表数据
+     *
+     * @apiParam {Number} [page=0] 页码
+     * @apiParam {Number} [size=4] 每页显示数据条目
+     *
+     * @apiSampleRequest /products
+     */
     @GetMapping
     @HystrixCommand(fallbackMethod = "defaultGetAll")
     public ResponseEntity getAll(@RequestParam(value = "page", defaultValue = "0") int page, @RequestParam(value = "size", defaultValue = "4") int size) {

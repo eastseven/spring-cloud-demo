@@ -22,3 +22,6 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+ms-apidoc/apidoc
+ms-apidoc/resources

@@ -1,0 +1,17 @@
+{
+  "name": "microservice api",
+  "version": "1.0.0",
+  "description": "微服务API文档",
+  "title": "API",
+  "header": {
+    "filename": "header.md"
+  },
+  "footer": {
+    "filename": "footer.md"
+  },
+  "template": {
+    "forceLanguage": "zh_cn",
+    "withCompare": true,
+    "withGenerator": true
+  }
+}

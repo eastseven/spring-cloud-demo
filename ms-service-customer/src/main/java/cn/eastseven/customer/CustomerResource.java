@@ -13,6 +13,10 @@ import java.util.Map;
 
 /**
  * Created by dongqi on 17/3/20.
+ *
+ * @apiDefine User
+ *
+ * 用户
  */
 @Slf4j
 @RestController
@@ -22,6 +26,19 @@ public class CustomerResource {
     @Autowired
     CustomerService customerService;
 
+    /**
+     * @api {post} /user 用户注册
+     * @apiVersion 1.0.0
+     * @apiName register
+     * @apiGroup User
+     * @apiPermission none
+     *
+     * @apiDescription 用户注册
+     *
+     * @apiParam {Object} user
+     *
+     * @apiSampleRequest /user
+     */
     @PostMapping("register")
     @HystrixCommand(fallbackMethod = "defaultRegister")
     public ResponseEntity register(@RequestBody Customer customer, HttpServletRequest request) {
