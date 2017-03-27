@@ -1,0 +1,1 @@
+*底部链接，及ICP备案信息等* [官网](http://www.eastseven.cn) [蜀ICP备13015040号-1](http://www.miitbeian.gov.cn/)
